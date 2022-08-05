@@ -1,8 +1,8 @@
 # Management-Company-Bogatyr-
 <h3>Deputilities (Management Company "Bogatyr")</h3>
-<p>This project is my thesis work done on laravel, jQuery, mysql. With it, you can automate the work of the dispatching service of housing and communal services. The project takes into account the roles of the dispatcher, executor, passportist, employee of the personnel department, administrator of site, as well as the tenant. There are documents for printing: "Ticket"; "Outfit order". The project use the Selectize library for easy filterin. Also using tinymce to inform employees and customers of the company in the style of a news feed. For convenient work with information archiving (safe deletion), the joelbutcher/laravel-archivable library has been downloaded.</p>
+<p>This project is my diplom work on Laravel, jQuery, MySQL. With it, you can automate the work of the dispatching service of housing and communal services. The project takes into account the roles of the dispatcher, executor, passportist, employee of the personnel department, administrator of site, as well as the tenant. There are documents for printing: "Ticket"; "Outfit order". The project use the Selectize library for easy filterin. Also using Tinymce to inform employees and customers of the company in the style of a news feed. For convenient work with information archiving (analog soft deletion), the joelbutcher/laravel-archivable library has been downloaded.</p>
 
-<em>The dump folder contains a mysql script for creating a database with test data, as well as a file with logins and passwords of test users, since the site uses password hashing. For local start just use OpenServer.</em>
+<em>The dump folder contains a mysql script for creating a database with test data, as well as a file with logins and passwords of test users, since the site uses password hashing. For local launch just use OpenServer.</em>
 
 ------------------------------------------------------------------------------------------------------------------------
 
