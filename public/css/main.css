@@ -1,0 +1,234 @@
+main {
+    overflow: hidden;
+}
+main > center {
+    display: block;
+}
+
+.linkNow {
+    margin: 10px 0;
+    width: 100%;
+}
+.linkNow * {
+    text-align: left;
+    margin-left: 5px;
+}
+.linkNow > p > a {
+    color: black;
+}
+
+main h3 {
+    margin-bottom: 15px;
+}
+main h3:not(:first-child) {
+    margin-top: 30px;
+}
+
+.content {
+    width: calc(100% - 40px);
+    height: 100%;
+    background-color: white;
+    margin: 10px 0;
+    border-radius: .25rem;
+    border: 1px solid rgba(0,0,0,.125);
+    text-align: left;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 0.125rem 0.25rem;
+}
+
+.pride {
+    background-image: var(--url-pride-bg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: calc(100% + 40px);
+    margin: 20px -20px;
+    z-index: -1;
+    overflow: hidden;
+}
+.pride > div {
+    width: 100%;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    padding: 60px 10px;
+}
+.pride > div > div > div:nth-child(1n) {
+    font-size: 50px;
+}
+.pride > div > div > div:nth-child(2n) {
+    font-size: 20px;
+    font-weight: bold;
+}
+.pride > div > div > div {
+    background-color: white;
+    display: table;
+    padding: 5px;
+}
+.pride > div > div > p {
+    color: white;
+    word-wrap: break-word;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-shadow: 3px 3px 2px #000000;
+}
+
+.newsMini {
+    display: block;
+    width: 100%;
+}
+.newsMini > a > div * {
+}
+.newsMini > a > div {
+    height: 150px;
+    background-color: #f1f1f0;
+    border: 1px solid #d2d2d2;
+    padding: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.newsMini > a > div:hover {
+    background-color: #EFEADF;
+}
+.newsMini > a > div > div:nth-child(1n){
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin-right: 10px;
+}
+.newsMini > a > div > div:nth-child(1n) > img {
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-right: 0px;
+}
+.newsMini > a > div > div:nth-child(2n){
+    width: calc(75% - 20px);
+    overflow: hidden;
+}
+.newsMini > a > div > div:nth-child(2n) > p:nth-child(1n) {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(0, 0, 0);
+
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+.newsMini > a > div > div:nth-child(2n) > p:nth-child(2n) {
+    font-size: 12px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+}
+.newsMini > a > div > div:nth-child(2n) > p:nth-child(3n) {
+    font-size: 16px;
+    font-weight: normal;
+    color: rgb(0, 0, 0);
+
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}
+
+
+
+.tableInfoStatic {
+    width: 75%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.tableInfoStatic tr {
+    border-bottom: 1px solid rgb(192, 192, 192);
+}
+.tableInfoStatic tr > td:nth-child(1) {
+    padding: 5px;
+    vertical-align: top;
+}
+.tableInfoStatic tr > td:nth-child(2) {
+    padding: 5px;
+    text-align: right;
+}
+
+
+.subText {
+    text-align: center;
+    font-style: italic;
+    color:rgba(0, 0, 0, 0.5);
+    margin: 30px 0;
+}
+
+
+.newsView {
+    width: 100%;
+    max-width: 100%;
+    line-height: 25px;
+}
+.newsView img {
+    max-width: 100%;
+}
+.newsView table {
+    max-width: 100%;
+    margin: 10px 0px;
+}
+.newsView table tr td {
+    padding: 3px;
+}
+.newsView ul {
+    margin-left: 30px;
+}
+
+
+.validErrors {
+    text-align: center;
+    margin: 20px 0px;
+}
+.validErrors * {
+    color: red;
+}
+
+
+
+.edit_table {
+    width: 90%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.inputCell input, .inputCell select {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    position: relative;
+    width: 95%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.edit_miniInfo {
+    color: gray;
+    width: 60%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 15px;
+}
+.edit_miniInfo span {
+    float: right;
+}

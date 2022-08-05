@@ -1,0 +1,46 @@
+.contextMenu img {
+    height: 30px;
+    width: 30px;
+    opacity: 0.8;
+    cursor: pointer;
+    content: var(--url-contextMenu-bg);
+    outline: none;
+    border: none;
+}
+.contextMenu img:hover {
+    height: 30px;
+    opacity: 1.0;
+}
+
+.contextMenu a {
+    text-decoration: none;
+    list-style: none;
+    text-align: left;
+    background-color: rgb(250, 250, 250);
+    color: rgb(66, 66, 66);
+}
+.contextMenu a:hover {
+    background-color: white;
+    color: rgb(115, 115, 115);
+}
+.contextMenu ul {
+    display: none;
+    position: absolute;
+    text-align: center;
+    margin: 0;
+    outline: 1px solid #ddd;
+    border-radius: 3px;
+    font-size: 17px;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 0.125rem 0.25rem;
+}
+.contextMenu ul li {
+    background-color: rgb(250, 250, 250);
+    cursor: pointer;
+    line-height: 40px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.contextMenu ul li {
+    background-color: white;
+}

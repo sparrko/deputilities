@@ -1,0 +1,71 @@
+nav {
+    height: 39px;
+    background-color: rgb(248, 250, 252);
+    border-bottom: 1px solid #ddd;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 0.125rem 0.25rem;
+}
+
+nav > center > ul {
+    position: relative;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+}
+nav > center > ul * {
+    display: inline-block;
+    margin: 0;
+}
+
+nav > center > ul > li > a {
+    padding: 10px 15px;
+    font-size: 17px;
+    color: rgb(66, 66, 66);
+    position: relative;
+    text-decoration: none;
+    user-select: none;
+}
+nav > center > ul > li > a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+nav > center > ul > li > a:hover::before {
+    transform: scaleX(1);
+}
+nav > center > ul > li:hover > ul * {
+    display: block;
+}
+nav > center > ul > li > ul * {
+    display: none;
+    background-color: white;
+    min-width: 95px;
+}
+nav > center > ul > li > ul {
+    display: block;
+    text-align: left;
+    position: absolute;
+    border: 1px solid #ddd;
+    background-color: white;
+}
+
+nav > center > ul > li > ul > li > a {
+    width: 100%;
+    background-color: rgb(250, 250, 250);
+    padding: 10px;
+    text-decoration: none;
+    user-select: none;
+    color: rgb(66, 66, 66);
+    cursor: pointer;
+}
+nav > center > ul > li > ul > li > a:hover {
+    background-color: white;
+    color: rgb(115, 115, 115);
+}

@@ -1,0 +1,89 @@
+header {
+    width: 100%; margin: 0 auto;
+    color: rgb(33, 37, 41);
+    background-color: rgb(248, 250, 252);
+    border-bottom: 1px solid #ddd;
+    height: 65px;
+    user-select: none;
+}
+
+header > center > .left, header > center > .left > a, header > center > .right {
+    height: 100%;
+}
+
+header > center > .left > a > img {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+header > center > .left > a > p {
+    font-size: 18px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 0 20px;
+    font-weight: bold;
+    color: black;
+}
+
+header > center > .right > p {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-right: -10px;
+}
+header > center > .right > div {
+    height: 100%;
+}
+header > center > .right > div > div{
+    height: 100%;
+    width: 60px;
+    cursor: pointer;
+}
+header > center > .right > div > div > img {
+    height: 39px;
+    width: 39px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+#profileHeaderMenu * {
+    float: none;
+}
+#profileHeaderMenu {
+    position: absolute;
+    list-style: none;
+    z-index: 10;
+    background-color: rgb(250, 250, 250);
+    transform: translate(-85px, 60px);
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 0.125rem 0.25rem;
+    display: none;
+
+    width: 150px;
+}
+#profileHeaderMenu a li {
+    padding-left: 10px;
+    padding-right: 25px;
+    text-align: left;
+}
+#profileHeaderMenu a {
+    line-height: 40px;
+    width: 100%;
+    font-size: 17px;
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+    user-select: none;
+}
+#profileHeaderMenu li:hover {
+    background-color: white;
+}
+#profileHeaderMenu a li:hover {
+    color: rgb(115, 115, 115);
+}

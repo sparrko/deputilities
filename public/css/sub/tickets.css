@@ -1,0 +1,96 @@
+.tickets {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+}
+.tickets b {
+    font-size: 16px;
+    color: rgb(90, 90, 90);
+    font-weight: normal;
+}
+.tickets p {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    font-weight: normal;
+}
+.tickets .status_td p {
+    font-size: 16px;
+    margin-left: 0px;
+    margin-top: 7px;
+}
+
+.tickets .ticket_comment {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 7;
+    overflow: hidden;
+}
+.tickets tr {
+    background-color: rgb(238, 238, 238);
+    transition: background-color 0.3s ease;
+    margin-bottom: 150px;
+}
+.tickets tr:hover {
+    background-color: rgb(245, 245, 245);
+    transition: background-color 0.3s ease;
+}
+.tickets td {
+    vertical-align: top;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgb(137, 137, 137);
+    border-top: 1px solid rgb(137, 137, 137);
+}
+.tickets td:nth-child(1n) {
+    padding-left: 10px;
+    vertical-align: top;
+    border-left: 1px solid rgb(137, 137, 137);
+    border-right: none;
+    width: 20%;
+}
+.tickets td:nth-child(2n) {
+    vertical-align: top;
+    border-left: none;
+    border-right: none;
+    width: 25%;
+}
+.tickets td:nth-child(3n) {
+    border-left: none;
+    border-right: none;
+    width: 25%;
+}
+.tickets td:nth-child(4n) {
+    border-left: none;
+    border-right: 1px solid rgb(137, 137, 137);
+    padding-right: 10px;
+    vertical-align: top;
+    width: 30%;
+}
+@media only screen and (max-width: 780px) {
+    .tickets td:nth-child(4n) {
+        display: none;
+    }
+    .tickets td:nth-child(3n) {
+        border-right: 1px solid rgb(137, 137, 137);
+    }
+}
+.tickets hr {
+    margin: 5px 0px;
+}
+.tickets .status {
+    margin: 5px 0px;
+}
+.tickets .status span {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding-left: 2px;
+}
+
+.tickets .status {
+    position: relative;
+    top: 10px;
+}

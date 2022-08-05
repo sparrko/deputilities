@@ -1,0 +1,21 @@
+footer {
+    width: 100%; 
+    max-width: 950px; 
+    margin: 0 auto;
+    margin-top: auto;
+    height: 50px;
+    padding-top: 20px;
+}
+
+footer > center > .right > .fonerius > a {
+    padding: 4px 7px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    transition: .3s ease;
+    cursor: default;
+}
+footer > center > .right > .fonerius > a:hover {
+    color: #ffee00;
+    background-color: #808080;
+}

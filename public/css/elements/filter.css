@@ -1,0 +1,31 @@
+.filter {
+    padding: 0px 30px;
+}
+.filter table {
+    width: 100%;
+    border-spacing: 10px 10px;
+}
+.filter .filterDate tr:nth-child(1n){
+    text-align: center;
+    color: rgb(60, 60, 60);
+    font-style: italic;
+}
+.filter .filterDate tr:nth-child(2n),
+.filter .filterDate tr:nth-child(3n){
+    text-align: left;
+    color: black;
+    font-style: normal;
+}
+.filter .four-columns td:nth-child(3n) {
+    padding-left: 20px;
+}
+.filter .four-columns select,
+.filter .four-columns input {
+    width: 100%;
+}
+.filter .btns {
+    margin-top: 20px;
+}
+.filter .btns * {
+    margin: 0px 3px;
+}
