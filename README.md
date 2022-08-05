@@ -27,3 +27,7 @@ Ticket list of dispatcher:
 Ticket view:
 
 ![image](https://user-images.githubusercontent.com/55271713/183100568-c07c1099-2684-4587-9aba-27c9694f6c82.png)
+
+------------------------------------------------------------------------------------------------------------------------
+
+<em>The Bogatyr company is fictional. Any resemblance to real property management companies is purely coincidental.</em>
