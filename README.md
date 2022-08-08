@@ -9,9 +9,9 @@
 <h3>Photos:</h3>
 
 Main page without authorization:
-
+<p align="center">
 ![image](https://user-images.githubusercontent.com/55271713/183098731-2deb9be5-66f4-4b4d-8772-50c150b65c71.png)
-
+</p>
 News view:
 
 ![image](https://user-images.githubusercontent.com/55271713/183099008-48649402-b64e-45e4-a803-11de578b727f.png)
